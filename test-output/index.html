@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>testng-customsuite.xml</span>
+                    <span>Default-Firefox.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 5 failed,   </span>
+                    <span class="method-stats">6 methods, 1 failed,  3 skipped,  2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,30 +102,53 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(4.0, chocolate covered strawberries boxes, 1.0, 29.95)">testAddingItemsToCart(4.0, chocolate covered strawberries boxes, 1.0, 29.95)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(2.0, diamond earrings , 25.0, 3499.75)">testAddingItemsToCart(2.0, diamond earrings , 25.0, 3499.75)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(3.0, heart shaped ice tray, 3.0, 19.17)">testAddingItemsToCart(3.0, heart shaped ice tray, 3.0, 19.17)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(1.0, giant teddy bear valentines day heart, 5.0, 899.95)">testAddingItemsToCart(1.0, giant teddy bear valentines day heart, 5.0, 899.95)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(5.0, i love you pillowcase, 2.0, 21.0)">testAddingItemsToCart(5.0, i love you pillowcase, 2.0, 21.0)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(2, diamond earrings , 25, 3499.75)">testAddingItemsToCart(2, diamond earrings , 25, 3499.75)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(3, heart shaped ice tray, 3, 19.17)">testAddingItemsToCart(3, heart shaped ice tray, 3, 19.17)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(4, chocolate covered strawberries boxes, 1, 29.95)">testAddingItemsToCart(4, chocolate covered strawberries boxes, 1, 29.95)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(5, i love you pillowcase, 2, 21.0)">testAddingItemsToCart(5, i love you pillowcase, 2, 21.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.helpers.BasicSqlDbTest" hash-for-method="BasicTest">BasicTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.sqa.gy.AmazonCartTest1" hash-for-method="testAddingItemsToCart(1, giant teddy bear valentines day heart, 5, 899.95)">testAddingItemsToCart(1, giant teddy bear valentines day heart, 5, 899.95)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -145,11 +168,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testAddingItemsToCart(4.0, chocolate covered strawberries boxes, 1.0, 29.95)">
-                  </a> <!-- testAddingItemsToCart(4.0, chocolate covered strawberries boxes, 1.0, 29.95) -->
+                  <a name="testAddingItemsToCart(2, diamond earrings , 25, 3499.75)">
+                  </a> <!-- testAddingItemsToCart(2, diamond earrings , 25, 3499.75) -->
                   <span class="method-name">testAddingItemsToCart</span>
-                  <span class="parameters">(4.0, chocolate covered strawberries boxes, 1.0, 29.95)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
+                  <span class="parameters">(2, diamond earrings , 25, 3499.75)</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Galinas-Air&apos;, ip: &apos;192.168.42.83&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.7.0_80&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: ac0c23a5-3f10-a948-9dfa-23cf50f1a078
+Capabilities [{platform=MAC, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=43.0}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.submit(Unknown Source)
+	at com.sqa.gy.amazonPages.AmazonHomePage.submitSearchQuery(AmazonHomePage.java:28)
+	at com.sqa.gy.AmazonCartTest1.testAddingItemsToCart(AmazonCartTest1.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,178 +213,152 @@
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddingItemsToCart(2.0, diamond earrings , 25.0, 3499.75)">
-                  </a> <!-- testAddingItemsToCart(2.0, diamond earrings , 25.0, 3499.75) -->
-                  <span class="method-name">testAddingItemsToCart</span>
-                  <span class="parameters">(2.0, diamond earrings , 25.0, 3499.75)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddingItemsToCart(3.0, heart shaped ice tray, 3.0, 19.17)">
-                  </a> <!-- testAddingItemsToCart(3.0, heart shaped ice tray, 3.0, 19.17) -->
-                  <span class="method-name">testAddingItemsToCart</span>
-                  <span class="parameters">(3.0, heart shaped ice tray, 3.0, 19.17)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddingItemsToCart(1.0, giant teddy bear valentines day heart, 5.0, 899.95)">
-                  </a> <!-- testAddingItemsToCart(1.0, giant teddy bear valentines day heart, 5.0, 899.95) -->
-                  <span class="method-name">testAddingItemsToCart</span>
-                  <span class="parameters">(1.0, giant teddy bear valentines day heart, 5.0, 899.95)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testAddingItemsToCart(5.0, i love you pillowcase, 2.0, 21.0)">
-                  </a> <!-- testAddingItemsToCart(5.0, i love you pillowcase, 2.0, 21.0) -->
-                  <span class="method-name">testAddingItemsToCart</span>
-                  <span class="parameters">(5.0, i love you pillowcase, 2.0, 21.0)</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: argument type mismatch
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 49 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.sqa.gy.AmazonCartTest1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddingItemsToCart(3, heart shaped ice tray, 3, 19.17)">
+                  </a> <!-- testAddingItemsToCart(3, heart shaped ice tray, 3, 19.17) -->
+                  <span class="method-name">testAddingItemsToCart</span>
+                  <span class="parameters">(3, heart shaped ice tray, 3, 19.17)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddingItemsToCart(4, chocolate covered strawberries boxes, 1, 29.95)">
+                  </a> <!-- testAddingItemsToCart(4, chocolate covered strawberries boxes, 1, 29.95) -->
+                  <span class="method-name">testAddingItemsToCart</span>
+                  <span class="parameters">(4, chocolate covered strawberries boxes, 1, 29.95)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddingItemsToCart(5, i love you pillowcase, 2, 21.0)">
+                  </a> <!-- testAddingItemsToCart(5, i love you pillowcase, 2, 21.0) -->
+                  <span class="method-name">testAddingItemsToCart</span>
+                  <span class="parameters">(5, i love you pillowcase, 2, 21.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqa.gy.helpers.BasicSqlDbTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BasicTest">
+                  </a> <!-- BasicTest -->
+                  <span class="method-name">BasicTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.sqa.gy.AmazonCartTest1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddingItemsToCart(1, giant teddy bear valentines day heart, 5, 899.95)">
+                  </a> <!-- testAddingItemsToCart(1, giant teddy bear valentines day heart, 5, 899.95) -->
+                  <span class="method-name">testAddingItemsToCart</span>
+                  <span class="parameters">(1, giant teddy bear valentines day heart, 5, 899.95)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/w2/q3h1mw_j7bq_ynd_t068gtph0000gn/T/testng-eclipse-1839611458/testng-customsuite.xml</span>
+            <span class="header-content">/Users/galinayakovenko/Dropbox/Eclipse Workspace/amazon-project-with-suite/Default-Firefox.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default-Firefox&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;safari&quot;/&gt;
+        &lt;exclude name=&quot;chrome&quot;/&gt;
+        &lt;exclude name=&quot;ie&quot;/&gt;
+        &lt;exclude name=&quot;opera&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.sqa.gy.*&quot;/&gt;
+    &lt;/packages&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.sqa.gy.AmazonCartTest1&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.BasicSqlDbTest&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.BasicTest&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.TestWithDataFromFiles&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonAddedToCartPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonHomePage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonItemPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonResultsPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonSearchResultsPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.amazonPages.AmazonShoppingCartPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.AppBasics&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.AutoBasics&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.BasicPage&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.DataHelper$1&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.DataHelper&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.DataType&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.BooleanFormatException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.CharacterCountFormatException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.DataTypesCountException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.DataTypesMismatchException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.DataTypesTypeException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.InvalidExcelExtensionException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.exceptions.NumberNotInRangeException&quot;/&gt;
+      &lt;class name=&quot;com.sqa.gy.helpers.TextFormat&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-  &lt;test name=&quot;Default test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.sqa.gy.AmazonCartTest1&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;setUpChrome&quot;/&gt;
-          &lt;include name=&quot;testAddingItemsToCart&quot; invocation-numbers=&quot;0 1 2 3 4&quot;/&gt;
-          &lt;include name=&quot;tearDown&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.sqa.gy.AmazonCartTest1 --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+  &lt;/test&gt; &lt;!-- Default-Firefox --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -357,10 +370,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Default test(failed) (1 class)</span>
+                <span class="test-name">Default-Firefox (24 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -386,32 +396,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testAddingItemsToCart')
 data.setCell(0, 2, 'com.sqa.gy.AmazonCartTest1')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 26120);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testAddingItemsToCart')
 data.setCell(1, 2, 'com.sqa.gy.AmazonCartTest1')
-data.setCell(1, 3, 5);
+data.setCell(1, 3, 12340);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testAddingItemsToCart')
-data.setCell(2, 2, 'com.sqa.gy.AmazonCartTest1')
-data.setCell(2, 3, 4);
+data.setCell(2, 1, 'BasicTest')
+data.setCell(2, 2, 'com.sqa.gy.helpers.BasicSqlDbTest')
+data.setCell(2, 3, 9);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testAddingItemsToCart')
 data.setCell(3, 2, 'com.sqa.gy.AmazonCartTest1')
-data.setCell(3, 3, 4);
+data.setCell(3, 3, 3);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testAddingItemsToCart')
 data.setCell(4, 2, 'com.sqa.gy.AmazonCartTest1')
-data.setCell(4, 3, 3);
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAddingItemsToCart')
+data.setCell(5, 2, 'com.sqa.gy.AmazonCartTest1')
+data.setCell(5, 3, 2);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 24 ms</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -426,9 +440,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.sqa.gy.TestWithDataFromFiles</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testAmazon2003</span>
+                <br/>
+                <span class="ignored-method-name">testAmazon</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -439,75 +462,52 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.sqa.gy.AmazonCartTest1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUpChrome</span>
+                <span class="method-name">setUpFirefox</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testAddingItemsToCart(1.0, giant teddy bear valentines day heart, 5.0, 899.95)</span>
-                <span class="method-start">3789 ms</span>
+                <span class="method-name">testAddingItemsToCart(1, giant teddy bear valentines day heart, 5, 899.95)</span>
+                <span class="method-start">5080 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3802 ms</span>
+                <span class="method-start">17422 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUpChrome</span>
-                <span class="method-start">3918 ms</span>
+                <span class="method-name">setUpFirefox</span>
+                <span class="method-start">17621 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testAddingItemsToCart(2.0, diamond earrings , 25.0, 3499.75)</span>
-                <span class="method-start">7105 ms</span>
+                <span class="method-name">testAddingItemsToCart(2, diamond earrings , 25, 3499.75)</span>
+                <span class="method-start">21971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7117 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpChrome</span>
-                <span class="method-start">7242 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testAddingItemsToCart(3.0, heart shaped ice tray, 3.0, 19.17)</span>
-                <span class="method-start">10209 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10217 ms</span>
+                <span class="method-start">48109 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpChrome</span>
-                <span class="method-start">10335 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testAddingItemsToCart(4.0, chocolate covered strawberries boxes, 1.0, 29.95)</span>
-                <span class="method-start">13558 ms</span>
+                <span class="method-name">testAddingItemsToCart(3, heart shaped ice tray, 3, 19.17)</span>
+                <span class="method-start">48181 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">13565 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpChrome</span>
-                <span class="method-start">13676 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testAddingItemsToCart(5.0, i love you pillowcase, 2.0, 21.0)</span>
-                <span class="method-start">17085 ms</span>
+                <span class="method-name">testAddingItemsToCart(4, chocolate covered strawberries boxes, 1, 29.95)</span>
+                <span class="method-start">48190 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">17098 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testAddingItemsToCart(5, i love you pillowcase, 2, 21.0)</span>
+                <span class="method-start">48199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sqa.gy.helpers.BasicSqlDbTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BasicTest</span>
+                <span class="method-start">48210 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
