@@ -50,11 +50,14 @@
       </run>
     </groups>
     <classes>
+      <class name="com.sqa.gy.helpers.BasicSqlDbTest">
+        <methods>
+          <include name="BasicTest"/>
+        </methods>
+      </class> <!-- com.sqa.gy.helpers.BasicSqlDbTest -->
       <class name="com.sqa.gy.AmazonCartTest1">
         <methods>
-          <include name="testAddingItemsToCart" invocation-numbers="1"/>
-          <include name="setUpFirefox"/>
-          <include name="tearDown"/>
+          <include name="testAddingItemsToCart"/>
         </methods>
       </class> <!-- com.sqa.gy.AmazonCartTest1 -->
     </classes>
